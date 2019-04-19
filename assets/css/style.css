@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(../pictures/background_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+header .row--bgnav {
+  background-color: rgba(57, 68, 75, 0.5);
+}
+header nav {
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+  position: fixed;
+}
+header nav .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+header nav #navbarTogglerDemo03 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  font-weight: bold;
+}
+header nav #navbarTogglerDemo03 ul {
+  width: 52%;
+  justify-content: space-between;
+}
+header nav #navbarTogglerDemo03 ul li a:hover {
+  color: #0ba2cc;
+  border: 1px solid #0ba2cc;
+}
+header nav p {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  margin: auto;
+}
+header nav span {
+  color: #0ba2cc;
+}
+header #hero .container_hero {
+  width: 100%;
+  padding-top: 400px;
+  padding-bottom: 260px;
+}
+header #hero .container_hero mark {
+  background-color: #4b565d;
+  color: white;
+}
+header #hero .container_hero .title_1 {
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: lighter;
+  font-size: 42px;
+  margin: 15px auto;
+}
+header #hero .container_hero .title_2 {
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: lighter;
+  font-size: 42px;
+  margin: 15px auto;
+}
+
+main #services {
+  background-color: #4bcaff;
+  color: white;
+}
+main #services h2 {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-top: 80px;
+}
+main #services hr {
+  border: 1px solid white;
+  width: 4%;
+  margin-bottom: 50px;
+  margin-top: -3px;
+}
+main #services h3 {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+main #services p {
+  padding-bottom: 80px;
+}
+main #portfolio {
+  background-color: white;
+}
+main #portfolio .row--rowbgnavport {
+  background-color: transparent;
+  width: 100%;
+}
+main #portfolio hr {
+  border: 1px solid black;
+  width: 4%;
+  margin-bottom: 50px;
+  margin-top: -3px;
+}
+
+/*# sourceMappingURL=style.css.map */

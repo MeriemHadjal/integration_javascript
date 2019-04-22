@@ -12,62 +12,85 @@ header {
   background-image: url(../pictures/background_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 header .row--bgnav {
   background-color: rgba(57, 68, 75, 0.5);
 }
+
 header nav {
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   color: white;
   position: fixed;
 }
+
 header nav .navbar-brand {
   font-size: 30px;
   font-weight: bold;
 }
+
 header nav #navbarTogglerDemo03 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   font-size: 14px;
   font-weight: bold;
 }
+
 header nav #navbarTogglerDemo03 ul {
   width: 52%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 header nav #navbarTogglerDemo03 ul li a:hover {
   color: #0ba2cc;
   border: 1px solid #0ba2cc;
 }
+
 header nav p {
   padding-top: 65px;
   padding-bottom: 65px;
   margin: auto;
 }
+
 header nav span {
   color: #0ba2cc;
 }
+
 header #hero .container_hero {
   width: 100%;
   padding-top: 400px;
   padding-bottom: 260px;
 }
+
 header #hero .container_hero mark {
   background-color: #4b565d;
   color: white;
 }
+
 header #hero .container_hero .title_1 {
   text-align: center;
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-weight: lighter;
   font-size: 42px;
   margin: 15px auto;
 }
+
 header #hero .container_hero .title_2 {
   text-align: center;
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-weight: lighter;
   font-size: 42px;
   margin: 15px auto;
@@ -77,40 +100,195 @@ main #services {
   background-color: #4bcaff;
   color: white;
 }
+
 main #services h2 {
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-weight: lighter;
   font-size: 30px;
   padding-top: 80px;
 }
+
 main #services hr {
   border: 1px solid white;
   width: 4%;
   margin-bottom: 50px;
   margin-top: -3px;
 }
+
+main #services .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 main #services h3 {
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-weight: 600;
   font-size: 24px;
   padding-top: 25px;
   padding-bottom: 20px;
 }
+
 main #services p {
   padding-bottom: 80px;
 }
+
 main #portfolio {
   background-color: white;
 }
-main #portfolio .row--rowbgnavport {
+
+main #portfolio #container_portfolio .row--rowbgnavport {
   background-color: transparent;
-  width: 100%;
 }
-main #portfolio hr {
+
+main #portfolio #container_portfolio h2 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-bottom: 80px;
+}
+
+main #portfolio #container_portfolio hr {
   border: 1px solid black;
   width: 4%;
   margin-bottom: 50px;
   margin-top: -3px;
 }
 
+main #portfolio #container_portfolio #navbarTogglerDemo03 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main #portfolio #pictures .row:first-child {
+  margin-bottom: 30px;
+}
+
+main #portfolio #pictures .row:last-child {
+  margin-bottom: 80px;
+}
+
+main #default_section {
+  background-color: #515f67;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4%;
+}
+
+main #default_section .just_default h2 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+main #default_section .just_default hr {
+  border: 1px solid white;
+  width: 12%;
+  margin-bottom: 50px;
+  margin-top: -3px;
+}
+
+main #default_section .just_default p {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+main #default_section .just_default .bouton {
+  border: 1px solid black;
+  padding: 15px 30px 15px 30px;
+  margin-top: 15px;
+  color: black;
+}
+
+main #twitter {
+  background-color: #4bcaff;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+main #twitter #twitter_content .row:first-child h2 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+main #twitter #twitter_content .row:first-child h2::after i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main #twitter #twitter_content .row:first-child hr {
+  border: 1px solid white;
+  width: 4%;
+  margin-top: -3px;
+}
+
+main #twitter #twitter_content .row:last-child span {
+  font-weight: bold;
+}
+
+main #doe {
+  background-image: url(../pictures/bg_doe.jpg);
+  background-repeat: no-repeat;
+  background: cover;
+}
+
+main #doe #doe_content .row:first-child h2 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: white;
+}
+
+main #doe #doe_content .row:first-child hr {
+  border: 1px solid white;
+  width: 8%;
+  margin-bottom: 50px;
+  margin-top: -3px;
+  color: white;
+}
+
+main #doe #doe_content .row:first-child p {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+main #doe #doe_content .row:last-child p {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+main #doe #doe_content .row:last-child .logo {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+main #doe #doe_content .row:last-child .logo #twitt {
+  border: 1px solid white;
+}
+
+main #doe #doe_content .row:last-child .logo #google {
+  border: 1px solid white;
+}
+
+main #doe #doe_content .row:last-child .logo #ball {
+  border: 1px solid white;
+}
+
+main #doe #doe_content .row:last-child .logo #coffee {
+  border: 1px solid white;
+}
 /*# sourceMappingURL=style.css.map */

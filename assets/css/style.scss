@@ -72,8 +72,6 @@ body {
                 }
 
                 p {
-                    // padding-top: 65px;
-                    // padding-bottom: 65px;
                     margin: auto;
                 }
 
@@ -216,7 +214,7 @@ body {
 
             background-color: rgb(81, 95, 103);
             display: flex;
-            // padding: 4%;
+
 
             .just_default {
 
@@ -317,93 +315,86 @@ body {
             background-size: cover;
             background-position: center;
             padding: 80px 0;
+            color: white;
 
             #doe_content {
 
-                display: flex;
+                // display: flex;
 
                 .row:first-child {
 
-                    h2 {
-                        font-family: 'Segoe UI', sans-serif;
-                        font-weight: lighter;
-                        font-size: 30px;
-                        color: white;
-                    }
+                    .doe_hr {
+                        padding-left: 15px;
 
-                    hr {
-                        border-color: white;
-                    }
+                        h2 {
+                            font-family: 'Segoe UI', sans-serif;
+                            font-weight: lighter;
+                            font-size: 30px;
+                            color: white;
+                        }
 
-                    p {
-                        font-family: 'Segoe UI', sans-serif;
-                        color: white;
-                        font-size: 14px;
+                        hr {
+                            border-color: white;
+                        }
+
                     }
                 }
 
-                .row:last-child {
+                .row :last-child {
 
-                    p {
-                        font-family: 'Segoe UI', sans-serif;
-                        color: white;
-                        font-size: 14px;
-                    }
+                    #john {
 
-                    .logo {
-                        // color: white;
-                        // padding: 5px;
-                        // text-decoration: none;
-                        // list-style-type: none;
-
-                        ul {
-                            list-style-type: none;
-                            text-decoration: none;
-
-                            li {
-                                border: 1px solid white;
-                                color: white;
-                                padding: 5px;
-                                // text-decoration: none;
-                                // list-style-type: none;
-
-
-                                // #twitt {
-                                //     border: 1px solid white;
-                                //     text-decoration: none;
-                                //     list-style-type: none;
-                                //     padding: 5px;
-                                // }
-
-                                // #google {
-                                //     border: 1px solid white;
-                                //     text-decoration: none;
-                                //     list-style-type: none;
-                                //     padding: 5px;
-                                // }
-
-
-                                // #dribbble {
-                                //     border: 1px solid white;
-                                //     text-decoration: none;
-                                //     list-style-type: none;
-                                //     padding: 5px;
-                                // }
-
-                                // #coffee {
-                                //     border: 1px solid white;
-                                //     text-decoration: none;
-                                //     list-style-type: none;
-                                //     padding: 5px;
-                                // }
-                            }
+                        p {
+                            font-family: 'Segoe UI', sans-serif;
+                            color: white;
+                            font-size: 14px;
+                            padding: 0;
                         }
                     }
 
 
+
+
+                    #john_D {
+
+                        p {
+                            font-family: 'Segoe UI', sans-serif;
+                            color: white;
+                            font-size: 14px;
+                            // 
+                            padding: 0;
+                        }
+
+                        .logo {
+                            display: flex;
+
+                            ul {
+                                border: 1px solid white;
+                                color: white;
+                                padding: 5px;
+                                list-style-type: none;
+                                text-decoration: none;
+
+                                // li {
+                                //     // border: 1px solid white;
+                                //     // color: white;
+                                //     // padding: 5px;
+                                //     // list-style-type: none;
+                                //     // text-decoration: none;
+
+
+                                // }
+                            }
+                        }
+
+
+
+                    }
                 }
             }
+
         }
+
 
         #testimonials {
             padding: 80px 0;
@@ -445,15 +436,11 @@ body {
             .container {
                 color: white;
 
-                input {
-                    border: 1px solid white;
-                    display: flex;
-                }
-
 
                 #titre_contact {
                     display: flex;
                     flex-direction: column;
+                    margin-left: 0;
 
                     h2 {
                         font-family: 'Segoe UI', sans-serif;
@@ -463,42 +450,58 @@ body {
 
                     hr {
                         border-color: white;
+                        margin-bottom: 40px;
                     }
                 }
 
                 .partie1 {
+                    padding-bottom: 40px;
 
                     #full_name {
                         font-family: 'Segoe UI', sans-serif;
                         font-weight: bold;
                         font-size: 14px;
+                        width: 100%;
+                        height: 60px;
+                        border: 1px solid white;
+                        display: flex;
                     }
 
                     p {
                         font-family: 'Segoe UI', sans-serif;
                         font-weight: 600;
                         font-size: 14px;
+
                     }
                 }
 
+                .partie1_bis {
+                    padding-top: 25px;
+                }
+
                 .partie2 {
+                    padding-bottom: 40px;
 
                     #email {
                         font-family: 'Segoe UI', sans-serif;
                         font-weight: bold;
                         font-size: 14px;
+                        width: 100%;
+                        height: 60px;
+                        border: 1px solid white;
+                        display: flex;
                     }
-
-                    
                 }
+
                 ul {
                     list-style-type: none;
-                    
+                    line-height: 1.75;
+
                     li {
                         font-family: 'Segoe UI', sans-serif;
                         font-weight: bold;
                         font-size: 14px;
-                        
+
                     }
                 }
 
@@ -509,6 +512,14 @@ body {
                         font-size: 14px;
                         display: flex;
                         color: white;
+                    }
+
+                    textarea {
+                        width: 100%;
+                        height: 215px;
+                        margin-bottom: 40px;
+                        border: 1px solid white;
+                        display: flex;
                     }
                 }
 
@@ -523,9 +534,38 @@ body {
 
             }
         }
+    }
 
 
 
+    #footer {
+        background-color: rgb(53, 63, 71);
+        padding: 80px 0;
 
+        #container_footer {
+
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+
+            #menu_footer {
+                padding-left: 15px;
+
+                ul {
+                    list-style-type: none;
+                    display: flex;
+                    border: 1px solid transparent;
+
+                    // li {}
+                }
+            }
+
+            #copyright {
+                padding-right: 15px;
+            }
+        }
     }
 }

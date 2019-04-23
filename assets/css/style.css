@@ -207,37 +207,41 @@ body main #doe {
   background-size: cover;
   background-position: center;
   padding: 80px 0;
+  color: white;
 }
-body main #doe #doe_content {
-  display: flex;
+body main #doe #doe_content .row:first-child .doe_hr {
+  padding-left: 15px;
 }
-body main #doe #doe_content .row:first-child h2 {
+body main #doe #doe_content .row:first-child .doe_hr h2 {
   font-family: "Segoe UI", sans-serif;
   font-weight: lighter;
   font-size: 30px;
   color: white;
 }
-body main #doe #doe_content .row:first-child hr {
+body main #doe #doe_content .row:first-child .doe_hr hr {
   border-color: white;
 }
-body main #doe #doe_content .row:first-child p {
+body main #doe #doe_content .row :last-child #john p {
   font-family: "Segoe UI", sans-serif;
   color: white;
   font-size: 14px;
+  padding: 0;
 }
-body main #doe #doe_content .row:last-child p {
+body main #doe #doe_content .row :last-child #john_D p {
   font-family: "Segoe UI", sans-serif;
   color: white;
   font-size: 14px;
+  padding: 0;
 }
-body main #doe #doe_content .row:last-child .logo ul {
-  list-style-type: none;
-  text-decoration: none;
+body main #doe #doe_content .row :last-child #john_D .logo {
+  display: flex;
 }
-body main #doe #doe_content .row:last-child .logo ul li {
+body main #doe #doe_content .row :last-child #john_D .logo ul {
   border: 1px solid white;
   color: white;
   padding: 5px;
+  list-style-type: none;
+  text-decoration: none;
 }
 body main #testimonials {
   padding: 80px 0;
@@ -271,13 +275,10 @@ body main #contact {
 body main #contact .container {
   color: white;
 }
-body main #contact .container input {
-  border: 1px solid white;
-  display: flex;
-}
 body main #contact .container #titre_contact {
   display: flex;
   flex-direction: column;
+  margin-left: 0;
 }
 body main #contact .container #titre_contact h2 {
   font-family: "Segoe UI", sans-serif;
@@ -286,24 +287,43 @@ body main #contact .container #titre_contact h2 {
 }
 body main #contact .container #titre_contact hr {
   border-color: white;
+  margin-bottom: 40px;
+}
+body main #contact .container .partie1 {
+  padding-bottom: 40px;
 }
 body main #contact .container .partie1 #full_name {
   font-family: "Segoe UI", sans-serif;
   font-weight: bold;
   font-size: 14px;
+  width: 100%;
+  height: 60px;
+  border: 1px solid white;
+  display: flex;
 }
 body main #contact .container .partie1 p {
   font-family: "Segoe UI", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
+body main #contact .container .partie1_bis {
+  padding-top: 25px;
+}
+body main #contact .container .partie2 {
+  padding-bottom: 40px;
+}
 body main #contact .container .partie2 #email {
   font-family: "Segoe UI", sans-serif;
   font-weight: bold;
   font-size: 14px;
+  width: 100%;
+  height: 60px;
+  border: 1px solid white;
+  display: flex;
 }
 body main #contact .container ul {
   list-style-type: none;
+  line-height: 1.75;
 }
 body main #contact .container ul li {
   font-family: "Segoe UI", sans-serif;
@@ -317,11 +337,41 @@ body main #contact .container .partie3 #message {
   display: flex;
   color: white;
 }
+body main #contact .container .partie3 textarea {
+  width: 100%;
+  height: 215px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  display: flex;
+}
 body main #contact .container .row:last-child #envoyer {
   color: white;
   background-color: #4bcaff;
   padding: 25px 150px;
   border: none;
+}
+body #footer {
+  background-color: #353f47;
+  padding: 80px 0;
+}
+body #footer #container_footer {
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+body #footer #container_footer #menu_footer {
+  padding-left: 15px;
+}
+body #footer #container_footer #menu_footer ul {
+  list-style-type: none;
+  display: flex;
+  border: 1px solid transparent;
+}
+body #footer #container_footer #copyright {
+  padding-right: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

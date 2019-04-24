@@ -105,7 +105,7 @@
         <section id="portfolio" class="container-fluid">
             <div class="container" id="container_portfolio">
                 <div class="row row--bgnavport">
-                    <!-- <div class="container"> -->
+
                     <nav class="navbar navbar-expand-lg ">
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarTogglerDemo04" aria-controls="navbarTogglerDemo04" aria-expanded="false"
@@ -182,27 +182,7 @@
 
         </section>
 
-        <!-- <div class="row row--bgnav">
-<h2>PORTFOLIO</h2>
-<hr>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">ALL</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse"
-data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-<div class="navbar-nav">
-<a class="nav-item nav-link active" href="#">PANORAMAS <span
-class="sr-only">(current)</span></a>
-<a class="nav-item nav-link" href="#">PORTRAITS</a>
-<a class="nav-item nav-link" href="#">MACRO</a>
-<a class="nav-item nav-link " href="#">JOURNAL</a>
-</div>
-</div>
-</div>
-</nav> -->
+
 
         <section id="default_section" class="container-fluid">
             <div class="container just_default">
@@ -264,9 +244,13 @@ class="sr-only">(current)</span></a>
         <section id="doe" class="container-fluid">
             <div class="container" id="doe_content">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="doe_hr">
                         <h2>WHO IS JOHN DOE?</h2>
                         <hr>
+                    </div>
+                </div>
+                    <div class="row">
+                    <div class="col-6" id="john">
                         <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi
                             bears sesame snaps I love unerdwear.com.
                             Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p>
@@ -274,11 +258,8 @@ class="sr-only">(current)</span></a>
                             Ice cream I love powder pudding apple pie marshmallow.
                             Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
                     </div>
-                </div>
-
-                <!-- <div class="container"> -->
-                <div class="row">
-                    <div class="col-6">
+                
+                    <div class="col-6" id="john_D">
                         <p>Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar
                             plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie
                             bear
@@ -293,8 +274,8 @@ class="sr-only">(current)</span></a>
                         </div>
                     </div>
                 </div>
+                
             </div>
-            <!-- </div> -->
         </section>
 
         <section id="testimonials" class="container-fluid">
@@ -324,13 +305,12 @@ class="sr-only">(current)</span></a>
                             <label for="full_name" name="FULL_NAME">FULL NAME</label>
                             <input type="text" name="FULL_NAME" id="full_name">
                         </div>
-                        <div class="offset-1 col-6">
+                        <div class="offset-1 col-6 partie1_bis">
                             <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop
                                 halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop
                                 tart.
                                 Jujubes bear claw donut chupa chups.</p>
                         </div>
-
                     </div>
                     <div class="row">
                         <div class="col-5 partie2">
@@ -346,27 +326,42 @@ class="sr-only">(current)</span></a>
                             </ul>
                         </div>
                     </div>
-            
-            <div class="row partie3">
-                <div class="col-12">
-                    <label for="message" name="MESSAGE">MESSAGE</label>
-                    <textarea type="text" name="MESSAGE" id="message"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <label for="envoyer" name="MESSAGE"></label>
-                    <input type="submit" name="MESSAGE" value="MESSAGE" id="envoyer">
-                </div>
-            </div>
-            </form>
+                    <div class="row partie3">
+                        <div class="col-12">
+                            <label for="message" name="MESSAGE">MESSAGE</label>
+                            <textarea type="text" name="MESSAGE" id="message" cols="30" rows="20"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="envoyer" name="MESSAGE"></label>
+                            <input type="submit" name="MESSAGE" value="MESSAGE" id="envoyer">
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
 
-
-
-
     </main>
+
+    <footer class="container-fluid" id="footer">
+        <div class="container" id="container_footer">
+            <div class="row" id="menu_footer">
+                <ul>
+                    <li><a href="heroe">HOME</a></li>|
+                    <li><a href="services">SERVICES</a></li>|
+                    <li><a href="porfolio">PORTFOLIO</a></li>|
+                    <li><a href="contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="row" id="copyright">
+                <P>2013 </P>
+                <i class="far fa-copyright"></i>
+            </div>
+        </div>
+    </footer>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
